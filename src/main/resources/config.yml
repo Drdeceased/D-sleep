@@ -1,10 +1,10 @@
 # Dynamic Sleep Time Configuration
 
 # The maximum extra ticks added per tick if 100% of online players are asleep.
-max-speedup-ticks: 60
+max-speedup-ticks: 40
 
 # Extra ticks added to the world per tick when forced by an admin
-force-speedup-ticks: 50
+force-speedup-ticks: 40
 
 # Bossbar tracking sleeping players and completion percentage of the night
 # Placeholders: %sleeping%, %total%, %progress%, %multiplier%
