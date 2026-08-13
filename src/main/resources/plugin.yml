@@ -1,0 +1,14 @@
+name: DSleep
+version: '${version}'
+
+main: org.drdeceased.dSleep.DSleep
+paper-plugin-loader: org.drdeceased.dSleep.DSleepLoader
+api-version: '26.2'
+load: POSTWORLD
+
+
+commands:
+  dynamicsleep:
+    description: Main command for DynamicSleepTime.
+    aliases: [dsleep]
+    permission: dynamicsleeptime.admin

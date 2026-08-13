@@ -1,0 +1,17 @@
+# Dynamic Sleep Time Configuration
+
+# The maximum extra ticks added per tick if 100% of online players are asleep.
+max-speedup-ticks: 60
+
+# Extra ticks added to the world per tick when forced by an admin
+force-speedup-ticks: 50
+
+# Bossbar tracking sleeping players and completion percentage of the night
+# Placeholders: %sleeping%, %total%, %progress%, %multiplier%
+bossbar-title: "<gold>Sleeping: <yellow>%sleeping%/%total%</yellow> | Night Progress: <yellow>%progress%%</yellow> (<gold>%multiplier%x</gold>)</gold>"
+force-bossbar-title: "<red><bold>ADMIN FORCED SPEEDUP</bold></red> <gold>| Night Progress: <yellow>%progress%%</yellow> (<gold>%multiplier%x</gold>)</gold>"
+
+# Options: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+bossbar-color: "BLUE"
+# Options: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+bossbar-overlay: "PROGRESS"
